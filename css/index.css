@@ -71,6 +71,16 @@ h1, h2, h3, h4, h5 {
   /* TB LR */
   margin: 0 auto;
 }
+@media(max-width:800px){
+    .container {
+        width: 800px;
+    }
+    .container header nav{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
 
 /* header */
 
@@ -87,6 +97,7 @@ header nav a {
   color: gray;
   text-decoration: none;
 }
+
 
 header nav a:hover {
   text-decoration: underline;

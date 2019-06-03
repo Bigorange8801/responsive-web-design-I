@@ -71,27 +71,30 @@ h1, h2, h3, h4, h5 {
   /* TB LR */
   margin: 0 auto;
 }
-@media(max-width:800px){
-    .container {
+@media (max-width:800px){
+    .container{
         width: 800px;
     }
-    .container header nav{
-        display:flex;
+    .container header nav {
+        display: flex;
         flex-direction: column;
-    }
-    
-}
-@media(max-width:500px){
-    .container {
-        width: 500px;
-    }
-    .container header nav{
-        display:flex;
-        flex-direction: column;
-    }
-    
-}
 
+    }
+}
+@media (max-width:500px){
+    .container{
+        width: 500px;
+        
+    }
+    .container header nav {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+ 
+ 
+ 
 /* header */
 
 header nav {
@@ -99,6 +102,7 @@ header nav {
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
+  align-content: center;
 }
 
 header nav a {

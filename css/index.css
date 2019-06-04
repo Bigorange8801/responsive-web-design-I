@@ -71,43 +71,14 @@ h1, h2, h3, h4, h5 {
   /* TB LR */
   margin: 0 auto;
 }
-@media (max-width:800px){
-    .container{
-        width: 800px;
-        border: black dotted;
-    }
-    .container header nav {
-        display: flex;
-        flex-direction: column;
-        
-        margin: 0%;
-        background: #cbd0d8;
-        box-shadow: 10px 15px;
-    }
-    .container header nav a{
-        margin-left:400px;
-        display:flex;
-    }
-     
-    
-}
-@media (max-width:500px){
-    .container{
-        width: 500px;  
-    }
-    .container header nav {
-        display: flex;
-        flex-direction: column;     
-    }
-     
-}
+
  
  
  
 /* header */
 
 header nav {
-  display: inline-block;
+  display: flex;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -116,7 +87,7 @@ header nav {
 
 
 header nav a {
-  margin-right: 65px;
+  margin-right: 65px; 
   font-size: 14px;
   color: gray;
   text-decoration: none;
@@ -224,4 +195,39 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+@media (max-width:800px){
+    .container{
+        width: 800px;
+        border: black dotted;
+    }
+    .container header nav {
+        display: flex;
+        flex-direction: column;
+        background: #e8eaec;
+        box-shadow: 10px 9px;
+        margin: 0px;
+    }
+    
+     
+    
+}
+@media (max-width:500px){
+    .container{
+        width: 500px;  
+    }
+     nav {
+        display: flex;
+        flex-direction: column;     
+        background: #e8eaec;
+        box-shadow: 10px 9px;
+        text-align: center;
+        margin: 0px;
+    } 
+    nav a{
+        text-align: center;
+    }
+    
+
+     
 }
